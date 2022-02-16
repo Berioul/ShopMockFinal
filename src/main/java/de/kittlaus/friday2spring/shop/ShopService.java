@@ -12,8 +12,10 @@ public class ShopService {
     private final ShopRepository shopRepository;
 
 
+
     public ShopService(ShopRepository shopRepository) {
         this.shopRepository = shopRepository;
+
     }
 
     public List<Product> needAllProducts() {
